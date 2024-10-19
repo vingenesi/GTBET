@@ -1,0 +1,30 @@
+.banner {
+    background-image: url('https://img.freepik.com/vetores-premium/banner-roxo-de-apostas-esportivas-com-copos-campeoes-de-smartphone-bolas-esportivas-e-moedas-de-ouro-caindo-no-podio-violeta-com-holofotes-e-lasers-de-ondas-de-neon-de-linha-ao-redor_7993-7929.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .banner-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .banner-content .btn-cadastro {
+    padding: 15px 30px;
+    background-color: #f90;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }

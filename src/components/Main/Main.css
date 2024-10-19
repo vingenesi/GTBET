@@ -1,0 +1,72 @@
+/* Estilo Geral para Seções de Produtos e Novidades */
+.produtos, .novidades {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5; /* Fundo claro para contraste */
+  }
+  
+  .produtos h2, .novidades h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333; /* Texto escuro para legibilidade */
+  }
+  
+  /* Estilo do Container do Carrossel */
+  .carousel-container {
+    position: relative;
+    max-width: 90%; /* Max width ajustado para se adequar melhor a diferentes telas */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff; /* Fundo branco para o carrossel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  }
+  
+  /* Estilo dos Itens do Carrossel */
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .item {
+    min-width: 25%;
+    background-color: #f0f0f0;
+    padding: 30px 15px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para itens */
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  /* Botões de Navegação do Carrossel */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Escurece os botões ao passar o mouse */
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
