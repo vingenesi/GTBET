@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #ff731c;
   }
   
   .navbar .logo {
-    color: #fff;
+    font-family: "Bungee Inline", sans-serif;
+    color: #ffffff;
     font-size: 24px;
   }
   
@@ -21,7 +24,7 @@
   }
   
   .navbar .nav-links a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
   }

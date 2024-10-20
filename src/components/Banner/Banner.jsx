@@ -5,7 +5,7 @@ function Banner() {
     <>
       <section className="banner">
         <div className="banner-content">
-          <h1>Bem-vindo à Melhor Loja Online</h1>
+          <h1>Bem-vindo ao Melhor Cassino Online</h1>
           <p>Cadastre-se agora e aproveite as melhores ofertas!</p>
           <a href="#" className="btn-cadastro">
             Cadastrar
